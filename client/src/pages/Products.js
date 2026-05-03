@@ -193,12 +193,6 @@ function Products() {
     }, 1500);
   };
 
-  const handleLogout = () => {
-    localStorage.removeItem('token');
-    localStorage.removeItem('user');
-    navigate('/login');
-  };
-
   const user = JSON.parse(localStorage.getItem('user')) || { name: 'User' };
 
   return (
