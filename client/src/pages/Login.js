@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './Login.css';
 
+const API_URL = 'https://stylecart-backend-xne0.onrender.com';
+
 function Login() {
   const [isLogin, setIsLogin] = useState(true);
   const [name, setName] = useState('');
@@ -16,7 +18,7 @@ function Login() {
     setLoading(true);
     setError('');
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', {
+      const res = await axios.post(`${API_URL}/api/auth/login`, {
         email,
         password
       });
@@ -33,7 +35,7 @@ function Login() {
     setLoading(true);
     setError('');
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/register', {
+      const res = await axios.post(`${API_URL}/api/auth/register`, {
         name,
         email,
         password
