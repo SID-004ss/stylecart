@@ -80,3 +80,7 @@ JWT_SECRET=your_secret_key
 ## Course
 Full Stack Development — MERN Stack
 SRM Institute of Science and Technology
+
+## Live Demo
+- Frontend: https://stylecart-bpfgfn3hr-sid-004ss-projects.vercel.app
+- Backend API: https://stylecart-backend-xne0.onrender.com
