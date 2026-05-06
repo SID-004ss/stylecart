@@ -3,8 +3,8 @@
 A modern online clothing shopping website built using the MERN Stack.
 
 ## Live Demo
-- Frontend: Coming Soon
-- Backend API: Coming Soon
+- Frontend: https://stylecart-bpfgfn3hr-sid-004ss-projects.vercel.app
+- Backend API: https://stylecart-backend-xne0.onrender.com
 
 ## Tech Stack
 - **Frontend:** React.js, React Router, Axios, CSS
